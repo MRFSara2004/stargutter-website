@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.color-samples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.color-box {
+  width: 100px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+}
+
+.unavailable {
+  background-color: lightgrey;
+  color: black;
+}
+
+input[type="text"], input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
